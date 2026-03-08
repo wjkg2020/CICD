@@ -17,7 +17,6 @@ public class ArrayUtils {
         }
         return -1;
     }
-
     /**
      * Count odd or positive elements
      *

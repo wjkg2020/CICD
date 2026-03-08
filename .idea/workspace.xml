@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5ba62fa-e7e4-4f6b-8050-f4a861a19af6" name="Changes" comment="updated ArrayUtils">
+    <list default="true" id="d5ba62fa-e7e4-4f6b-8050-f4a861a19af6" name="Changes" comment="updated ArrayUtilsTest to reduce BC">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ArrayUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,12 +67,12 @@
     &quot;assignee&quot;: &quot;darvishdarab&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/darvishdarab/ci-helloworld&quot;,
-    &quot;accountId&quot;: &quot;ff40f0dc-6dc3-4ef7-a5e1-f0f8ee472582&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/darvishdarab/ci-helloworld",
+    "accountId": "3f84414d-28a4-4b94-a6a7-66cdf41d4937"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -77,39 +80,40 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2RWol0qYBSfLxfjxeDP2ftsrZSG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JHU/STAD_SP24/ci-helloworld&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.ArrayUtilsTest.executor": "Run",
+    "Gradle.ci-helloworld [jacocoTestReport].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/JHU/STAD_SP24/ci-helloworld",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JHU\STAD_SP24\ci-helloworld\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="Gradle.ci-helloworld [jacocoTestReport]">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ci-helloworld.main" />
@@ -137,8 +141,11 @@
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>true</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
     <configuration name="ci-helloworld [jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -159,8 +166,11 @@
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ci-helloworld/build/reports/jacoco/test/html/index.html" useBuiltInWebServerPort="true">
@@ -171,10 +181,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="Gradle.ArrayUtilsTest" />
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Gradle.ci-helloworld [jacocoTestReport]" />
+        <item itemvalue="Gradle.ArrayUtilsTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -182,8 +190,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
       </set>
     </attachedChunks>
   </component>
@@ -203,7 +210,8 @@
       <workItem from="1710350698107" duration="1663000" />
       <workItem from="1711390957760" duration="438000" />
       <workItem from="1741628218417" duration="2187000" />
-      <workItem from="1741789787045" duration="3315000" />
+      <workItem from="1741789787045" duration="4477000" />
+      <workItem from="1742838007340" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1687384606981</created>
@@ -494,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741802184605</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="updated ArrayUtilsTest to reduce BC">
+      <option name="closed" value="true" />
+      <created>1741802313514</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1741802313514</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +535,8 @@
     <MESSAGE value="Added ArrayUtils.java" />
     <MESSAGE value="updated main" />
     <MESSAGE value="updated ArrayUtils" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated ArrayUtils" />
+    <MESSAGE value="updated ArrayUtilsTest to reduce BC" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated ArrayUtilsTest to reduce BC" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
