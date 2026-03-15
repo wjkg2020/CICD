@@ -53,16 +53,16 @@ public class ArrayUtilsTest {
     }
 
 
-//    @Test
-//    public void testCountOfFullCoverage() {
-//
-//        assertEquals(2, ArrayUtils.countOf(new int[]{1, 2, 2, 3}, 2));
-//    }
-//
-//    @Test
-//    public void testCountOfEmptyAndNotFound() {
-//        assertEquals(0, ArrayUtils.countOf(new int[]{}, 1));
-//        assertEquals(0, ArrayUtils.countOf(new int[]{1, 3}, 2));
-//    }
+    @Test
+    public void testCountOfFullCoverage() {
+
+        assertEquals(2, ArrayUtils.countOf(new int[]{1, 2, 2, 3}, 2));
+    }
+
+    @Test
+    public void testCountOfEmptyAndNotFound() {
+        assertEquals(0, ArrayUtils.countOf(new int[]{}, 1));
+        assertEquals(0, ArrayUtils.countOf(new int[]{1, 3}, 2));
+    }
 
 }
