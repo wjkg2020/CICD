@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5ba62fa-e7e4-4f6b-8050-f4a861a19af6" name="Changes" comment="updated ArrayUtilsTest to reduce BC">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/gradle.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gradle.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +90,7 @@
   "keyToString": {
     "Gradle.ArrayUtilsTest.executor": "Run",
     "Gradle.ci-helloworld [jacocoTestReport].executor": "Run",
+    "JavaScript 调试.index.html.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -122,7 +122,7 @@
       <recent name="D:\JHU\STAD_SP24\ci-helloworld\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ArrayUtilsTest">
+  <component name="RunManager" selected="JavaScript 调试.index.html">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ci-helloworld.main" />
@@ -190,6 +190,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.index.html" />
         <item itemvalue="Gradle.ArrayUtilsTest" />
         <item itemvalue="Gradle.ci-helloworld [jacocoTestReport]" />
       </list>
@@ -221,7 +222,7 @@
       <workItem from="1741628218417" duration="2187000" />
       <workItem from="1741789787045" duration="4477000" />
       <workItem from="1742838007340" duration="80000" />
-      <workItem from="1773534941255" duration="3668000" />
+      <workItem from="1773534941255" duration="4641000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1687384606981</created>
