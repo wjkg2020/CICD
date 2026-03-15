@@ -55,7 +55,14 @@ jobs:
           fail-if-branches-less-than: 20
           generate-summary: true
           summary-filename: jacoco-summary.json
-        continue-on-error: true
+
+      - name: Upload JaCoCo Report
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: jacoco-report
+          path: build/reports/jacoco/test/html/
+
       - name: Log Directory Structure
         run: ls -R
 
